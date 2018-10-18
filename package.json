@@ -1,0 +1,37 @@
+{
+  "name": "indecision-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.11",
+    "node-sass": "4.5.3",
+    "normalize.css": "7.0.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-modal": "3.4.4",
+    "react-scripts": "1.1.4",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.21.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "live-server public/",
+    "build": "webpack ",
+    "dev-server": "webpack-dev-server"
+  },
+  "description": "Steps to run the app: 1. Run command \"npm install\" from the root of the directory. 3. Run command \"npm run build\" from the root of the directory. 2. Run command \"npm run dev-server\" from the root of directory as well. 3. Project will be served on  http://localhost:8080/.",
+  "main": "webpack.config.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
